@@ -557,6 +557,11 @@ padding: var(--main-padding) 0 0 0;
   text-align: center;
 
 }
+@media (max-width:400px) {
+  .video .text_2  {
+   padding: 5px;
+  }
+}
 .video .text_2 h2 {
 color: white;
 margin-bottom: 30px;
@@ -565,6 +570,14 @@ font-weight: normal;
 .video .text_2 p {
 margin-bottom: 30px;
 color: white;
+}
+@media (max-width:400px) {
+  .video .text_2  h2 {
+  margin-bottom: 15px;
+  }
+  .video .text_2  p {
+    margin-bottom: 15px;
+    }
 }
 .video .text_2 button {
 padding: 10px 20px;
